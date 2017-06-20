@@ -28,8 +28,11 @@
     <version>2.2</version>
     <configuration>
     <url>http://localhost:8888/manager/text</url>
-	<sevlet>myserver</sevlet>
-	<path>/api</path>
+	<!--  <sevlet>myserver</sevlet> -->
+	<username>deployer</username>
+	<password>deployer</password>
+		<path>/api</path>
+	
     </configuration>
       </plugin>
     </plugins>
